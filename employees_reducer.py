@@ -5,6 +5,7 @@ current = None
 total = 0
 count = 0
 
+
 for line in sys.stdin:
     department, year = line.strip().split(",")
     year = int(year)
